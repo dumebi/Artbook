@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D27FD4091F4396C500550606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD4081F4396C500550606 /* AppDelegate.swift */; };
+		D27FD40B1F4396C500550606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD40A1F4396C500550606 /* ViewController.swift */; };
+		D27FD40E1F4396C500550606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27FD40C1F4396C500550606 /* Main.storyboard */; };
+		D27FD4111F4396C500550606 /* Art_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D27FD40F1F4396C500550606 /* Art_Book.xcdatamodeld */; };
+		D27FD4131F4396C500550606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27FD4121F4396C500550606 /* Assets.xcassets */; };
+		D27FD4161F4396C500550606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27FD4141F4396C500550606 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D27FD4051F4396C500550606 /* Art Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27FD4081F4396C500550606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D27FD40A1F4396C500550606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D27FD40D1F4396C500550606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D27FD4101F4396C500550606 /* Art_Book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Art_Book.xcdatamodel; sourceTree = "<group>"; };
+		D27FD4121F4396C500550606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27FD4151F4396C500550606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D27FD4171F4396C500550606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27FD4021F4396C500550606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D27FD3FC1F4396C500550606 = {
+			isa = PBXGroup;
+			children = (
+				D27FD4071F4396C500550606 /* Art Book */,
+				D27FD4061F4396C500550606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D27FD4061F4396C500550606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27FD4051F4396C500550606 /* Art Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27FD4071F4396C500550606 /* Art Book */ = {
+			isa = PBXGroup;
+			children = (
+				D27FD4081F4396C500550606 /* AppDelegate.swift */,
+				D27FD40A1F4396C500550606 /* ViewController.swift */,
+				D27FD40C1F4396C500550606 /* Main.storyboard */,
+				D27FD4121F4396C500550606 /* Assets.xcassets */,
+				D27FD4141F4396C500550606 /* LaunchScreen.storyboard */,
+				D27FD4171F4396C500550606 /* Info.plist */,
+				D27FD40F1F4396C500550606 /* Art_Book.xcdatamodeld */,
+			);
+			path = "Art Book";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27FD4041F4396C500550606 /* Art Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27FD41A1F4396C500550606 /* Build configuration list for PBXNativeTarget "Art Book" */;
+			buildPhases = (
+				D27FD4011F4396C500550606 /* Sources */,
+				D27FD4021F4396C500550606 /* Frameworks */,
+				D27FD4031F4396C500550606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Art Book";
+			productName = "Art Book";
+			productReference = D27FD4051F4396C500550606 /* Art Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27FD3FD1F4396C500550606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kornet Project";
+				TargetAttributes = {
+					D27FD4041F4396C500550606 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZNSBEU9P8A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D27FD4001F4396C500550606 /* Build configuration list for PBXProject "Art Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D27FD3FC1F4396C500550606;
+			productRefGroup = D27FD4061F4396C500550606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27FD4041F4396C500550606 /* Art Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D27FD4031F4396C500550606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27FD4161F4396C500550606 /* LaunchScreen.storyboard in Resources */,
+				D27FD4131F4396C500550606 /* Assets.xcassets in Resources */,
+				D27FD40E1F4396C500550606 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27FD4011F4396C500550606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27FD40B1F4396C500550606 /* ViewController.swift in Sources */,
+				D27FD4091F4396C500550606 /* AppDelegate.swift in Sources */,
+				D27FD4111F4396C500550606 /* Art_Book.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D27FD40C1F4396C500550606 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27FD40D1F4396C500550606 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D27FD4141F4396C500550606 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27FD4151F4396C500550606 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D27FD4181F4396C500550606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27FD4191F4396C500550606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27FD41B1F4396C500550606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZNSBEU9P8A;
+				INFOPLIST_FILE = "Art Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kornet.Art-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D27FD41C1F4396C500550606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZNSBEU9P8A;
+				INFOPLIST_FILE = "Art Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kornet.Art-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27FD4001F4396C500550606 /* Build configuration list for PBXProject "Art Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27FD4181F4396C500550606 /* Debug */,
+				D27FD4191F4396C500550606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27FD41A1F4396C500550606 /* Build configuration list for PBXNativeTarget "Art Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27FD41B1F4396C500550606 /* Debug */,
+				D27FD41C1F4396C500550606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D27FD40F1F4396C500550606 /* Art_Book.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D27FD4101F4396C500550606 /* Art_Book.xcdatamodel */,
+			);
+			currentVersion = D27FD4101F4396C500550606 /* Art_Book.xcdatamodel */;
+			path = Art_Book.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D27FD3FD1F4396C500550606 /* Project object */;
+}
