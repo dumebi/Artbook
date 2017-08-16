@@ -13,6 +13,8 @@
 		D27FD4111F4396C500550606 /* Art_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D27FD40F1F4396C500550606 /* Art_Book.xcdatamodeld */; };
 		D27FD4131F4396C500550606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27FD4121F4396C500550606 /* Assets.xcassets */; };
 		D27FD4161F4396C500550606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27FD4141F4396C500550606 /* LaunchScreen.storyboard */; };
+		D27FD41E1F43A17D00550606 /* createVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD41D1F43A17D00550606 /* createVC.swift */; };
+		D29537C51F43C55700E21998 /* tapme.png in Resources */ = {isa = PBXBuildFile; fileRef = D29537C41F43C55700E21998 /* tapme.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D27FD4121F4396C500550606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27FD4151F4396C500550606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D27FD4171F4396C500550606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27FD41D1F43A17D00550606 /* createVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createVC.swift; sourceTree = "<group>"; };
+		D29537C41F43C55700E21998 /* tapme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapme.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		D27FD4071F4396C500550606 /* Art Book */ = {
 			isa = PBXGroup;
 			children = (
+				D29537C41F43C55700E21998 /* tapme.png */,
 				D27FD4081F4396C500550606 /* AppDelegate.swift */,
 				D27FD40A1F4396C500550606 /* ViewController.swift */,
 				D27FD40C1F4396C500550606 /* Main.storyboard */,
+				D27FD41D1F43A17D00550606 /* createVC.swift */,
 				D27FD4121F4396C500550606 /* Assets.xcassets */,
 				D27FD4141F4396C500550606 /* LaunchScreen.storyboard */,
 				D27FD4171F4396C500550606 /* Info.plist */,
@@ -130,6 +136,7 @@
 				D27FD4161F4396C500550606 /* LaunchScreen.storyboard in Resources */,
 				D27FD4131F4396C500550606 /* Assets.xcassets in Resources */,
 				D27FD40E1F4396C500550606 /* Main.storyboard in Resources */,
+				D29537C51F43C55700E21998 /* tapme.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +149,7 @@
 			files = (
 				D27FD40B1F4396C500550606 /* ViewController.swift in Sources */,
 				D27FD4091F4396C500550606 /* AppDelegate.swift in Sources */,
+				D27FD41E1F43A17D00550606 /* createVC.swift in Sources */,
 				D27FD4111F4396C500550606 /* Art_Book.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +316,7 @@
 				D27FD41C1F4396C500550606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
